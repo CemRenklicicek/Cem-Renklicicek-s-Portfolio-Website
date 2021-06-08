@@ -1,0 +1,64 @@
+body
+{
+	background-color:#0000FF;
+}
+
+h1
+{
+	color: #000099;
+	text-align: center;
+	background-color: #FFFFFF;
+	width: 400px;
+	font-size: 130px;
+	font-family: "Arial";
+}
+
+
+img{
+  float: none;
+
+}
+a
+{	font-size: 50px;
+	padding: 25px;
+margin: 90px;
+color: #AFEEEE;
+font-family: Arial;
+text-align: right;
+}
+
+b
+{
+font-size: 89px;
+color: #000099;
+font-family: "Codystar";
+background-color: #FFFFFF;
+  margin: 360px;
+
+}
+
+img
+ {
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2
+{
+	color: #FFFFFF;
+	font-family: "Copperplate Gothic";
+	padding: 50px;
+	margin: 50px;
+	font-size: 19px;
+}
+
+
+
+p
+{
+	font-family: "Pangolin";
+	font-size: 30px;
+	color: #FFFFFF;
+  text-align: center;
+}

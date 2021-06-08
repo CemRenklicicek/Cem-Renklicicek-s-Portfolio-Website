@@ -1,0 +1,196 @@
+body
+{
+	background-color:#0000FF;
+}
+
+h1
+{
+	color: #000099;
+	text-align: center;
+	background-color: #FFFFFF;
+	width: 500px;
+	font-size: 100px;
+	font-family: "Codystar";
+}
+
+a
+{	font-size: 50px;
+	padding: 32px;
+color: #AFEEEE;
+font-family: Arial;
+margin: 86px;
+text-align: center;
+}
+
+
+b
+{
+font-size: 120px;
+color: #000099;
+font-family: "Codystar";
+text-align: center;
+background-color: #FFFFFF;
+width: 30px;
+
+}
+
+img
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2
+{
+	color: #FFFFFF;
+	font-family: "Copperplate Gothic";
+	padding: 50px;
+	margin: 50px;
+	font-size: 19px;
+}
+
+
+
+p
+{
+	font-family: "Questrial";
+	font-size: 30px;
+	color: #FFFFFF;
+  text-align: center;
+}
+
+}
+
+.info a:link
+{
+	font-size: 18px;
+	color: #000066;
+	text-decoration: none
+}
+.info a:visited
+{
+
+	color: #000066;
+}
+.info a:hover
+{
+
+	color: #cc0000;
+}
+.info a:active
+{
+
+	color: #990000;
+}
+.w3-border
+{
+	/* Kleuren kunnen ook verkort weergegeven worden: */
+  border:1px solid #CCC;
+
+}
+.w3-padding-16
+{
+  padding-top:16px;
+  padding-bottom:16px;
+}
+
+.page
+{
+  display: flex;
+  flex-wrap: wrap;
+		width: 100%;
+}
+/* Column container */
+.row
+{
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+}
+/* Create two equal columns that floats next to each other */
+.column
+{
+  float: left;
+  width: 50%;
+  padding: 10px;
+
+}
+.column33
+{
+	float: left;
+  width: 33.3%;
+	padding: 5px;
+
+
+}
+@media only screen and (max-width: 400px)
+{
+
+	.feature-1
+	{
+
+	   order: 3;
+	}
+
+	.feature-2
+	{
+
+	   order: 2;
+	}
+
+	.feature-3
+	{
+
+	   order: 1;
+	}
+
+}
+@media only screen and (min-width: 401px) and (max-width: 960px)
+{
+	.page
+  {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .w3-image
+  {
+    max-width:80%;
+    height:auto;
+    padding: 20px;
+  }
+
+
+}
+@media only screen and (min-width: 961px)
+{
+	.page
+  {
+    width: 960px;
+    margin: 0 auto;
+  }
+
+  .w3-image
+  {
+    max-width:100%;
+    height:auto;
+    padding: 1px;
+  }
+
+
+}
+@media screen and (max-width: 700px)
+{
+    .column
+    {
+        width: 100%;
+
+    }
+		.column33
+    {
+        width: 100%;
+
+    }
+
+}

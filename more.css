@@ -1,0 +1,53 @@
+body
+{
+	background-color:#0000FF;
+}
+
+h1
+{
+	color: #000099;
+	text-align: center;
+
+	background-color: #FFFFFF;
+	width: 700px;
+	font-size: 100px;
+	font-family: "Codystar";
+}
+
+a
+{	font-size: 50px;
+	padding: 31px;
+color: #AFEEEE;
+font-family: Arial;
+margin: 90px;
+}
+
+}
+
+b
+{
+font-size: 120px;
+color: #000099;
+font-family: "Codystar";
+text-align: center;
+background-color: #FFFFFF;
+
+}
+
+h2
+{
+	color: #FFFFFF;
+	font-family: "Copperplate Gothic";
+	padding: 50px;
+	margin: 50px;
+	font-size: 19px;
+}
+
+
+
+p
+{
+	font-family: "Trispace";
+	font-size: 30px;
+	color: #FFFFFF;
+}
